@@ -14,33 +14,49 @@ body{
   color:#333;
 }
 
-/* ===== HEADER ===== */
-header{
-  padding:22px 16px;
+/* ===== HEADER PROFESIONAL ===== */
+.main-header{
+  padding:30px 16px 26px;
   text-align:center;
-  background:#fff;
-  border-bottom:1px solid #eaeaea;
+  background:#ffffff;
+  border-bottom:1px solid #e6e6e6;
 }
 
-header h2{
+.brand{
+  display:flex;
+  justify-content:center;
+  align-items:flex-end;
+  gap:8px;
+}
+
+.brand span{
+  font-size:22px;
+  font-weight:800;
+  color:#a00000;
+  letter-spacing:2px;
+}
+
+.brand h1{
   margin:0;
-  font-size:24px;
-  font-weight:700;
-  letter-spacing:1px;
+  font-size:28px;
+  font-weight:800;
+  letter-spacing:2px;
+  color:#222;
 }
 
-.header-line{
-  width:60px;
+.brand-line{
+  width:50px;
   height:3px;
   background:#a00000;
-  margin:10px auto;
+  margin:14px auto 10px;
   border-radius:2px;
 }
 
-header p{
+.tagline{
   margin:0;
-  color:#666;
-  font-size:14px;
+  font-size:13px;
+  color:#777;
+  letter-spacing:1px;
 }
 
 /* ===== GRID ===== */
@@ -127,10 +143,14 @@ header p{
 
 <body>
 
-<header>
-  <h2>VD PHOTO STUDIO</h2>
-  <div class="header-line"></div>
-  <p>Story of Your Happiness</p>
+<!-- HEADER BARU -->
+<header class="main-header">
+  <div class="brand">
+    <span>VD</span>
+    <h1>PHOTO STUDIO</h1>
+  </div>
+  <div class="brand-line"></div>
+  <p class="tagline">Story of Your Happiness</p>
 </header>
 
 <div class="container">
@@ -227,4 +247,3 @@ header p{
 
 </body>
 </html>
-
