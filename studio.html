@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<title>Foto Studio</title>
+
+<style>
+body{
+  margin:0;
+  font-family:Arial, sans-serif;
+}
+
+.header{
+  padding:16px;
+  text-align:center;
+  border-bottom:1px solid #eee;
+}
+
+.back{
+  display:inline-block;
+  margin-top:8px;
+  text-decoration:none;
+  color:#a00000;
+  font-weight:bold;
+}
+
+.gallery{
+  padding:10px;
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:10px;
+}
+
+.gallery img{
+  width:100%;
+  border-radius:10px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="header">
+  <h2>Foto Studio</h2>
+  <a href="index.html" class="back">← Kembali</a>
+</div>
+
+<div class="gallery">
+  <img src="img/studio/1.jpg">
+  <img src="img/studio/2.jpg">
+</div>
+
+</body>
+</html>
